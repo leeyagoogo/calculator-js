@@ -5,27 +5,33 @@
         <link rel="stylesheet" href="css/calculator-styles.css">
     </head>
     <body>
+        <img src="kurumi.png">
         <div class="main">
             <h2 id="headingTitle">My Simple Calculator</h2>
             <table>
                 <tr>
-                    <td><label class="form-label">NUM1:</label></td>
-                    <td><input class="text" id="txtNum1"></td>
+                    <td><label class="form-label"></label></td>
+                    <td><input type="text" id="txtNum1"></td>
                 </tr>
 
                 <tr>
-                    <td><label class="form-label">NUM2:</label></td>
-                    <td><input class="text" id="txtNum2"></td>
+                    <td><label class="form-label"></label></td>
+                    <td><input type="text" id="txtNum2"></td>
                 </tr>
             </table>
-        </div>
         <br>
         <div class="btn">
-            <input type="button" value="+" onclick="addNumbers()">
-            <input type="button" value="-" onclick="subtractNumbers()">
-            <input type="button" value="*" onclick="multiplyNumbers()">
-            <input type="button" value="/" onclick="divideNumbers()">
-            <input type="button" id="btnClear" value="CLEAR" onclick="clearTextboxes()">
+            <div class="operators">
+                <input type="button" value="+"  onclick="addNumbers()">
+                <input type="button" value="-" onclick="subtractNumbers()">
+                <input type="button" value="*" onclick="multiplyNumbers()">
+                <input type="button" value="/" onclick="divideNumbers()">
+            </div>
+            
+            <div class="btn-clear">
+                <input type="button" id="btnClear" value="CLEAR" onclick="clearTextboxes()">
+            </div>
+        </div>
         </div>
         <script type="text/javascript" src="js/calculator-script.js"></script>
     </body>
