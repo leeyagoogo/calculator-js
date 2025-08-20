@@ -11,14 +11,17 @@ body{
     place-items: center;
 }
 
+img{
+    margin-bottom: 500px;
 
+}
 
 .main{
     width: 400px;
     height: 400px;
     background-color: #F5EFFF;
     position: absolute;
-    border: 3px solid #7469B6;
+    border: 7px solid #87728E;
     box-shadow: black;
     border-radius: 6px;
 }
@@ -32,7 +35,7 @@ body{
     padding: 3px 6px;
     outline: none;
     font-size: 40px;
-    border: 3px solid #7469B6;
+    border: 3px solid #87728E;
     display: flex;
     margin: 5px;
     border-radius: 6px;
@@ -56,10 +59,10 @@ body{
     font-size: 20px;
     cursor: pointer;
     transition: 0.5s;
-    border: 2px solid #7469B6;
+    border: 2px solid #87728E;
     border-radius: 6px;
     color: black;
-    background-color:#CDC1FF;
+    background-color:#B898C9;
 
 }
 
@@ -67,7 +70,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    color: #AD88C6;
+    color: #B898C9;
 }
 
 .btn-clear {
@@ -79,13 +82,13 @@ body{
 .btn-clear input[type='button']{
     width: 100px;
     height: 135px;
-    background-color: #7469B6;
+    background-color: #87728E;
     color: white;
 }
 
 
 .btn input[type='button']:hover{
-    background-color: black;
+    background-color: #87728E;
     color: white;
 }
 
